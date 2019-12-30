@@ -47,8 +47,8 @@ def total_even_pairs(src)
       number1 = src[i_row][i_column]
       number2 = src[i_row][i_column]
       if number1 % 2 == 0 && number2 % 2 == 0
-      total_numb = number1 + number2
-      return total_numb
+        total_numb = number1 + number2
+        return total_numb
       end 
       i_column += 1
     end
