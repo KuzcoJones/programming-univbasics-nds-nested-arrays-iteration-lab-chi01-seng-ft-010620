@@ -53,6 +53,6 @@ def total_even_pairs(src)
     i_column += 1
     end
     i_row += 1
-    end
+  end
   
 end
