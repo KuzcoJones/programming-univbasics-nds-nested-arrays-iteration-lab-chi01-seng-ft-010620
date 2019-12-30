@@ -41,18 +41,18 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   i_row = 0 
+  total_numb = 0
   while i_row < src.length do 
     i_column = 0 
     while i_column < src[i_row].length do
       number1 = src[i_row][i_column]
       number2 = src[i_row][i_column]
       if number1 % 2 == 0 && number2 % 2 == 0
-        total_numb = number1 + number2
-        return total_numb
+        total_numb += number1 + number2
       end 
       i_column += 1
     end
     i_row += 1
   end
-  
+  total_numb
 end
